@@ -1,0 +1,29 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .login-box {
+    width: calc(100% - 4rem);
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    padding: 4rem 2rem;
+
+    .login-title {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding-bottom: 1rem;
+    }
+
+    .login-form-forgot {
+      float: right;
+    }
+  }
+}

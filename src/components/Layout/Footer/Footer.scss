@@ -1,0 +1,36 @@
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: calc(100vw - 1rem);
+  margin: .5rem;
+  gap: .5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 2px #646cff solid;
+
+  .home-button {
+    justify-self: start;
+    align-self: center;
+    margin: .5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    cursor: pointer;
+    color: black;
+
+    &:hover {
+      background-color: #646cff;
+      color: white;
+    }
+
+    &.selected {
+      background-color: #646cff;
+      color: white;
+    }
+  }
+}
