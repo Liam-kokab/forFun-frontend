@@ -21,9 +21,7 @@ const Profile = () => {
 
   return (
     <Layout>
-      <div className="profile-page-container">
-        <h1>Profile</h1>
-      </div>
+      <div className="profile-page-container" />
     </Layout>
   );
 };

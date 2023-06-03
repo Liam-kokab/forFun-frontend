@@ -1,6 +1,6 @@
 import React from 'react';
 import { gql, useQuery } from '@apollo/client';
-import Layout from '../../components/Layout/Layout';
+import Layout from '../../components/Layout/Layout.jsx';
 import './Add.scss';
 
 const GET_USERS = gql`

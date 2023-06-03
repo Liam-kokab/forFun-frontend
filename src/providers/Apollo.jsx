@@ -7,7 +7,8 @@ const Apollo = ({ children }) => {
   const { token } = useGlobalState();
 
   const client = useMemo(() => new ApolloClient({
-    uri: `http://${window.location.hostname}:4000/graphql/`,
+    // uri: `http://${window.location.hostname}:4000/graphql/`,
+    uri: `${import.meta.env.VITE_BACK_END_URL}/graphql/`,
     cache: new InMemoryCache(),
     headers: { Authorization: token },
   }), [token]);
